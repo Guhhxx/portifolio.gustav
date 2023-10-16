@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: #000; /* Fundo preto */
+            color: #fff; /* Texto branco */
+        }
+        .cabecalho {
+            background-color: #800080; /* Roxo */
+        }
+        .cabecalho-menu {
+            text-align: center;
+        }
+        .cabecalho-menu-links {
+            text-decoration: none;
+            color: #fff; /* Texto branco */
+            margin: 0 15px;
+        }
+        .conteudo {
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho-menu">
+            <a class="cabecalho-menu-links" href="index.html">Home</a>
+            <a class="cabecalho-menu-links" href="sobre.html">Sobre Mim</a>
+            <a class="cabecalho-menu-links" href="fotos.html">Fotos</a>
+        </nav>
+    </header>
+
+    <main class="conteudo">
+        <section class="apresentacao-conteudo">
+            <h1 class="apresentacao-conteudo-titulo">Texto</h1>
+            <p class="apresentacao-conteudo-paragrafo">Texto de apresentação do portfólio.</p>
+            <div class="apresentacao-links">
+                <h2 class="apresentacao-links-conteudo">Entre em contato:</h2>
+            </div>
+        </section>
+    </main>
+
+    <footer></footer>
+</body>
+</html>
